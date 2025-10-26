@@ -15,3 +15,9 @@ link:
 - `Control + T` -> Timestamp
 - `Control + D` -> Bullet list day reference
 
+## Ideas
+
+Create a Things I did note to track your yearly progress
+
+
+![[things I did.png]]
