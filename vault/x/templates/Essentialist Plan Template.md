@@ -1,0 +1,13 @@
+- Essentialist Plan
+	- (Initial Bonus Question): If this was **easy**, what would it look like ?
+		- 
+	- What does **done** look like ?
+		- 
+	- What steps can I delete ?
+		- 
+	- What is the obvious **first** action ?
+		- 
+	- What gradual pace can I sustain ?
+		- 
+	- What can I be grateful for ?
+		- 

@@ -1,0 +1,527 @@
+{
+  "tasksFolder": "06-Tasks",
+  "taskTag": "task",
+  "excludedFolders": "x",
+  "defaultTaskPriority": "normal",
+  "defaultTaskStatus": "[[Waiting]]",
+  "taskOrgFiltersCollapsed": false,
+  "taskFilenameFormat": "zettel",
+  "storeTitleInFilename": true,
+  "customFilenameTemplate": "{title}",
+  "taskCreationDefaults": {
+    "defaultContexts": "work",
+    "defaultTags": "",
+    "defaultProjects": "",
+    "useParentNoteAsProject": true,
+    "defaultTimeEstimate": 0,
+    "defaultRecurrence": "none",
+    "defaultDueDate": "none",
+    "defaultScheduledDate": "none",
+    "bodyTemplate": "x/templates/Task Template",
+    "useBodyTemplate": true,
+    "defaultReminders": []
+  },
+  "calendarViewSettings": {
+    "defaultView": "dayGridMonth",
+    "customDayCount": 3,
+    "slotDuration": "00:30:00",
+    "slotMinTime": "00:00:00",
+    "slotMaxTime": "24:00:00",
+    "scrollTime": "08:00:00",
+    "firstDay": 1,
+    "timeFormat": "24",
+    "showWeekends": true,
+    "locale": "",
+    "defaultShowScheduled": true,
+    "defaultShowDue": true,
+    "defaultShowDueWhenScheduled": true,
+    "defaultShowTimeEntries": false,
+    "defaultShowRecurring": true,
+    "defaultShowICSEvents": true,
+    "enableTimeblocking": false,
+    "defaultShowTimeblocks": true,
+    "nowIndicator": true,
+    "selectMirror": true,
+    "weekNumbers": true,
+    "showTodayHighlight": true,
+    "eventMinHeight": 15
+  },
+  "pomodoroWorkDuration": 25,
+  "pomodoroShortBreakDuration": 5,
+  "pomodoroLongBreakDuration": 15,
+  "pomodoroLongBreakInterval": 4,
+  "pomodoroAutoStartBreaks": true,
+  "pomodoroAutoStartWork": false,
+  "pomodoroNotifications": true,
+  "pomodoroSoundEnabled": true,
+  "pomodoroSoundVolume": 50,
+  "pomodoroStorageLocation": "plugin",
+  "enableTaskLinkOverlay": true,
+  "enableInstantTaskConvert": true,
+  "useDefaultsOnInstantConvert": true,
+  "enableNaturalLanguageInput": true,
+  "nlpDefaultToScheduled": true,
+  "inlineTaskConvertFolder": "{{currentNotePath}}",
+  "disableNoteIndexing": false,
+  "fieldMapping": {
+    "title": "title",
+    "status": "status",
+    "priority": "priority",
+    "due": "due",
+    "scheduled": "scheduled",
+    "contexts": "contexts",
+    "projects": "projects",
+    "timeEstimate": "timeEstimate",
+    "completedDate": "completedDate",
+    "dateCreated": "dateCreated",
+    "dateModified": "dateModified",
+    "recurrence": "recurrence",
+    "archiveTag": "archived",
+    "timeEntries": "timeEntries",
+    "completeInstances": "complete_instances",
+    "blockedBy": "blockedBy",
+    "pomodoros": "pomodoros",
+    "icsEventId": "icsEventId",
+    "icsEventTag": "ics_event",
+    "reminders": "reminders"
+  },
+  "customStatuses": [
+    {
+      "id": "status_1761237953919",
+      "value": "[[Idea]]",
+      "label": "Idea",
+      "color": "#949494",
+      "completed": false,
+      "isCompleted": false,
+      "order": 0,
+      "autoArchive": false,
+      "autoArchiveDelay": 5
+    },
+    {
+      "id": "open",
+      "value": "[[Waiting]]",
+      "label": "Open",
+      "color": "#f7f36e",
+      "isCompleted": false,
+      "order": 1
+    },
+    {
+      "id": "in-progress",
+      "value": "[[Active]]",
+      "label": "In progress",
+      "color": "#0066cc",
+      "isCompleted": false,
+      "order": 2
+    },
+    {
+      "id": "done",
+      "value": "[[Completed]]",
+      "label": "Done",
+      "color": "#00aa00",
+      "isCompleted": true,
+      "order": 3,
+      "autoArchive": true
+    },
+    {
+      "id": "status-1",
+      "value": "[[Blocked]]",
+      "label": "Blocked",
+      "color": "#f78922",
+      "isCompleted": false,
+      "order": 4
+    },
+    {
+      "id": "status-2",
+      "value": "[[Cancelled]]",
+      "label": "Cancelled",
+      "color": "#f74040",
+      "isCompleted": true,
+      "order": 5
+    }
+  ],
+  "customPriorities": [
+    {
+      "id": "none",
+      "value": "none",
+      "label": "None",
+      "color": "#cccccc",
+      "weight": 0
+    },
+    {
+      "id": "low",
+      "value": "low",
+      "label": "Low",
+      "color": "#00aa00",
+      "weight": 1
+    },
+    {
+      "id": "normal",
+      "value": "normal",
+      "label": "Normal",
+      "color": "#ffaa00",
+      "weight": 2
+    },
+    {
+      "id": "high",
+      "value": "high",
+      "label": "High",
+      "color": "#ff0000",
+      "weight": 3
+    }
+  ],
+  "recurrenceMigrated": true,
+  "showTrackedTasksInStatusBar": true,
+  "autoStopTimeTrackingOnComplete": true,
+  "autoStopTimeTrackingNotification": false,
+  "showProjectSubtasks": false,
+  "hideCompletedFromOverdue": true,
+  "icsIntegration": {
+    "defaultNoteTemplate": "",
+    "defaultNoteFolder": "",
+    "icsNoteFilenameFormat": "title",
+    "customICSNoteFilenameTemplate": "{title}",
+    "enableAutoExport": false,
+    "autoExportPath": "tasknotes-calendar.ics",
+    "autoExportInterval": 60
+  },
+  "savedViews": [
+    {
+      "id": "mh3saozs6ubkwzmy5",
+      "name": "Work Tasks",
+      "query": {
+        "type": "group",
+        "id": "filter_1752816661473_2",
+        "conjunction": "and",
+        "children": [
+          {
+            "type": "condition",
+            "id": "filter_1761235585546_12",
+            "property": "contexts",
+            "operator": "contains",
+            "value": "work"
+          },
+          {
+            "type": "condition",
+            "id": "filter_1761245798038_58",
+            "property": "contexts",
+            "operator": "does-not-contain",
+            "value": "project"
+          }
+        ],
+        "sortKey": "priority",
+        "sortDirection": "asc",
+        "groupKey": "status",
+        "subgroupKey": "priority"
+      },
+      "visibleProperties": [
+        "status",
+        "priority",
+        "due",
+        "scheduled",
+        "projects",
+        "contexts"
+      ]
+    },
+    {
+      "id": "mh3nfno0iwcirl6ga",
+      "name": "Demo Requirements",
+      "query": {
+        "type": "group",
+        "id": "filter_1752816661473_2",
+        "conjunction": "and",
+        "children": [
+          {
+            "type": "condition",
+            "id": "filter_1761235585546_12",
+            "property": "projects",
+            "operator": "contains",
+            "value": "[[Prepare the TrendPay for the Upcoming Demo]]"
+          }
+        ],
+        "sortKey": "priority",
+        "sortDirection": "asc",
+        "groupKey": "status",
+        "subgroupKey": "priority"
+      },
+      "visibleProperties": [
+        "status",
+        "priority",
+        "due",
+        "scheduled",
+        "projects",
+        "contexts"
+      ]
+    },
+    {
+      "id": "mh3s6zkmdnhk7oic2",
+      "name": "Everything",
+      "query": {
+        "type": "group",
+        "id": "filter_1761235671091_15",
+        "conjunction": "and",
+        "children": [],
+        "sortKey": "priority",
+        "sortDirection": "asc",
+        "groupKey": "status"
+      },
+      "visibleProperties": [
+        "status",
+        "priority",
+        "due",
+        "scheduled",
+        "projects",
+        "contexts"
+      ]
+    },
+    {
+      "id": "mh3s9ba8obcit37ma",
+      "name": "Personal Projects",
+      "query": {
+        "type": "group",
+        "id": "filter_1761235671091_15",
+        "conjunction": "and",
+        "children": [
+          {
+            "type": "condition",
+            "id": "filter_1761245725509_53",
+            "property": "contexts",
+            "operator": "contains",
+            "value": "project"
+          },
+          {
+            "type": "condition",
+            "id": "filter_1761245737320_54",
+            "property": "contexts",
+            "operator": "contains",
+            "value": "personal"
+          }
+        ],
+        "sortKey": "priority",
+        "sortDirection": "asc",
+        "groupKey": "status"
+      },
+      "visibleProperties": [
+        "status",
+        "priority",
+        "due",
+        "scheduled",
+        "projects",
+        "contexts"
+      ]
+    },
+    {
+      "id": "mh3scfr31ub8pp9nu",
+      "name": "Personal Tasks",
+      "query": {
+        "type": "group",
+        "id": "filter_1761235671091_15",
+        "conjunction": "and",
+        "children": [
+          {
+            "type": "condition",
+            "id": "filter_1761235672740_16",
+            "property": "contexts",
+            "operator": "contains",
+            "value": "personal"
+          },
+          {
+            "type": "condition",
+            "id": "filter_1761245895560_64",
+            "property": "contexts",
+            "operator": "does-not-contain",
+            "value": "project"
+          }
+        ],
+        "sortKey": "priority",
+        "sortDirection": "asc",
+        "groupKey": "status"
+      },
+      "visibleProperties": [
+        "status",
+        "priority",
+        "due",
+        "scheduled",
+        "projects",
+        "contexts"
+      ]
+    }
+  ],
+  "pomodoroState": {
+    "isRunning": false,
+    "timeRemaining": 1500,
+    "nextSessionType": "work"
+  },
+  "lastPomodoroDate": "2025-10-14",
+  "taskIdentificationMethod": "property",
+  "taskPropertyName": "type",
+  "taskPropertyValue": "[[Task]]",
+  "showExpandableSubtasks": false,
+  "projectSubtasksPosition": "bottom",
+  "enableNotifications": true,
+  "notificationType": "system",
+  "moveArchivedTasks": true,
+  "archiveFolder": "x/archived/tasks",
+  "subtaskChevronPosition": "right",
+  "viewsButtonAlignment": "right",
+  "enableAPI": false,
+  "apiPort": 8080,
+  "apiAuthToken": "",
+  "webhooks": [],
+  "statusSuggestionTrigger": "*",
+  "singleClickAction": "edit",
+  "doubleClickAction": "openNote",
+  "suggestionDebounceMs": 0,
+  "userFields": [],
+  "defaultVisibleProperties": [
+    "status",
+    "priority",
+    "due",
+    "scheduled",
+    "projects",
+    "contexts"
+  ],
+  "maintainDueDateOffsetInRecurring": false,
+  "nlpLanguage": "en",
+  "projectAutosuggest": {
+    "enableFuzzy": false,
+    "rows": [
+      "{title|n(Title)}",
+      "{aliases|n(Aliases)}",
+      "{file.path|n(Path)}"
+    ],
+    "showAdvanced": false,
+    "requiredTags": [],
+    "includeFolders": [],
+    "propertyKey": "type",
+    "propertyValue": "[[Task]]"
+  },
+  "enableBases": true,
+  "lastSelectedTaskPath": "00-Inbox/Complete implementation of KYC Flows.md",
+  "pomodoroHistory": [
+    {
+      "id": "1759128208167",
+      "startTime": "2025-09-29T09:43:28.167+03:00",
+      "endTime": "2025-09-29T10:08:28.113+03:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "taskPath": "00-Inbox/Complete implementation of KYC Flows.md",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-29T09:43:28.167+03:00",
+          "endTime": "2025-09-29T10:08:28.113+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1759129713282",
+      "startTime": "2025-09-29T10:08:33.282+03:00",
+      "endTime": "2025-09-29T10:09:07.851+03:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-29T10:08:33.282+03:00",
+          "endTime": "2025-09-29T10:09:07.851+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1759135256879",
+      "startTime": "2025-09-29T11:40:56.878+03:00",
+      "endTime": "2025-09-29T16:05:30.717+03:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "taskPath": "00-Inbox/Complete implementation of KYC Flows.md",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-29T11:40:56.878+03:00",
+          "endTime": "2025-09-29T11:55:43.870+03:00"
+        },
+        {
+          "startTime": "2025-09-29T15:55:16.704+03:00",
+          "endTime": "2025-09-29T16:05:30.717+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1759151133384",
+      "startTime": "2025-09-29T16:05:33.384+03:00",
+      "endTime": "2025-09-29T16:06:40.959+03:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-29T16:05:33.384+03:00",
+          "endTime": "2025-09-29T16:06:40.959+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1759151203640",
+      "startTime": "2025-09-29T16:06:43.640+03:00",
+      "endTime": "2025-09-29T16:31:43.669+03:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "taskPath": "00-Inbox/Complete implementation of KYC Flows.md",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-29T16:06:43.640+03:00",
+          "endTime": "2025-09-29T16:31:43.669+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1759152706358",
+      "startTime": "2025-09-29T16:31:46.358+03:00",
+      "endTime": "2025-09-29T16:36:46.387+03:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-29T16:31:46.358+03:00",
+          "endTime": "2025-09-29T16:36:46.387+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1759153492616",
+      "startTime": "2025-09-29T16:44:52.616+03:00",
+      "endTime": "2025-09-29T17:09:52.697+03:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "taskPath": "00-Inbox/Complete implementation of KYC Flows.md",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-29T16:44:52.616+03:00",
+          "endTime": "2025-09-29T17:09:52.699+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1759155299354",
+      "startTime": "2025-09-29T17:14:59.354+03:00",
+      "endTime": "2025-09-29T17:40:49.455+03:00",
+      "plannedDuration": 15,
+      "type": "long-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-29T17:14:59.354+03:00",
+          "endTime": "2025-09-29T17:40:49.455+03:00"
+        }
+      ]
+    }
+  ],
+  "uiLanguage": "system",
+  "showTaskCardInNote": false,
+  "useFrontmatterMarkdownLinks": false,
+  "lastSeenVersion": "3.25.3",
+  "autoArchiveQueue": []
+}

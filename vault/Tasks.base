@@ -1,0 +1,26 @@
+filters:
+  and:
+    - type.contains(link("Task"))
+properties:
+  file.name:
+    displayName: Task
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - priority
+      - due-date
+      - status
+      - projects
+    sort:
+      - property: due-date
+        direction: ASC
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 621
+      note.priority: 136
+      note.due-date: 221
+      note.status: 219
+      note.projects: 552

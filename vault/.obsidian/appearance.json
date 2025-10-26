@@ -1,0 +1,15 @@
+{
+  "enabledCssSnippets": [
+    "extra-settings"
+  ],
+  "theme": "moonstone",
+  "baseFontSizeAction": true,
+  "baseFontSize": 16,
+  "cssTheme": "Baseline",
+  "textFontFamily": "iA Writer Quattro V",
+  "accentColor": "#8f62f9",
+  "showViewHeader": true,
+  "interfaceFontFamily": "iA Writer Quattro S",
+  "showRibbon": false,
+  "translucency": false
+}

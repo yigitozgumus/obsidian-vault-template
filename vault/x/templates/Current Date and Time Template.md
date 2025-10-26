@@ -1,0 +1,1 @@
+- **<%tp.date.now("DD MMM YYYY, ddd")%>** (<%tp.date.now("HH:mm")%>) <% tp.file.cursor() %>

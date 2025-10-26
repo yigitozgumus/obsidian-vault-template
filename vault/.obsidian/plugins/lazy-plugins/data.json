@@ -1,0 +1,150 @@
+{
+  "dualConfigs": false,
+  "showConsoleLog": false,
+  "desktop": {
+    "shortDelaySeconds": 5,
+    "longDelaySeconds": 15,
+    "delayBetweenPlugins": 40,
+    "defaultStartupType": null,
+    "showDescriptions": true,
+    "enableDependencies": false,
+    "plugins": {
+      "advanced-canvas": {
+        "startupType": "long"
+      },
+      "obsidian-advanced-slides": {
+        "startupType": "long"
+      },
+      "obsidian-advanced-uri": {
+        "startupType": "long"
+      },
+      "obsidian-auto-link-title": {
+        "startupType": "instant"
+      },
+      "better-search-views": {
+        "startupType": "instant"
+      },
+      "calendar": {
+        "startupType": "instant"
+      },
+      "dataview": {
+        "startupType": "instant"
+      },
+      "obsidian-excalidraw-plugin": {
+        "startupType": "short"
+      },
+      "garble-text": {
+        "startupType": "long"
+      },
+      "obsidian-git": {
+        "startupType": "instant"
+      },
+      "obsidian-hider": {
+        "startupType": "instant"
+      },
+      "journals": {
+        "startupType": "instant"
+      },
+      "obsidian-kanban": {
+        "startupType": "short"
+      },
+      "obsidian-linter": {
+        "startupType": "long"
+      },
+      "obsidian-minimal-settings": {
+        "startupType": "instant"
+      },
+      "nldates-obsidian": {
+        "startupType": "instant"
+      },
+      "omnisearch": {
+        "startupType": "short"
+      },
+      "obsidian-outliner": {
+        "startupType": "instant"
+      },
+      "obsidian-paste-image-rename": {
+        "startupType": "instant"
+      },
+      "url-into-selection": {
+        "startupType": "instant"
+      },
+      "quickadd": {
+        "startupType": "instant"
+      },
+      "smart-random-note": {
+        "startupType": "long"
+      },
+      "obsidian-style-settings": {
+        "startupType": "instant"
+      },
+      "tab-selector": {
+        "startupType": "instant"
+      },
+      "tag-wrangler": {
+        "startupType": "instant"
+      },
+      "obsidian-tasks-plugin": {
+        "startupType": "short"
+      },
+      "tw-task-wiki": {
+        "startupType": "long"
+      },
+      "templater-obsidian": {
+        "startupType": "instant"
+      },
+      "obsidian-toggl-integration": {
+        "startupType": "short"
+      },
+      "auto-note-mover": {
+        "startupType": "instant"
+      },
+      "note-refactor-obsidian": {
+        "startupType": "instant"
+      },
+      "obsidian-projects": {
+        "startupType": "instant"
+      },
+      "chronology": {
+        "startupType": "instant"
+      },
+      "periodic-notes": {
+        "startupType": "instant"
+      },
+      "obsidian42-brat": {
+        "startupType": "instant"
+      },
+      "editor-width-slider": {
+        "startupType": "instant"
+      },
+      "obsidian-list-callouts": {
+        "startupType": "instant"
+      },
+      "image-converter": {
+        "startupType": "instant"
+      },
+      "obsidian-task-archiver": {
+        "startupType": "instant"
+      },
+      "code-styler": {
+        "startupType": "instant"
+      },
+      "obsidian-focus-mode": {
+        "startupType": "instant"
+      },
+      "canvas-mindmap": {
+        "startupType": "disabled"
+      },
+      "obsidian-pandoc": {
+        "startupType": "instant"
+      },
+      "tasknotes": {
+        "startupType": "instant"
+      },
+      "mononote": {
+        "startupType": "instant"
+      }
+    },
+    "loadOrder": []
+  }
+}

@@ -1,0 +1,3 @@
+### <%tp.date.now("HH:mm")%>
+
+<% tp.file.cursor() %>

@@ -1,0 +1,52 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+        - file.inFolder("04-Content/notes")
+        - file.inFolder("04-Content/blogposts")
+views:
+  - type: table
+    name: Table
+    order:
+      - draft
+      - file.name
+      - publishDate
+      - file.tags
+      - status
+      - type
+    sort:
+      - property: publishDate
+        direction: DESC
+    columnSize:
+      file.name: 826
+      note.publishDate: 456
+      file.tags: 208
+      note.status: 194
+  - type: cards
+    name: Published Posts
+    filters:
+      and:
+        - draft == false
+    order:
+      - file.name
+      - publishDate
+      - assetPrefix
+    sort:
+      - property: publishDate
+        direction: DESC
+    image: note.cover
+    cardSize: 300
+  - type: cards
+    name: Draft Posts
+    filters:
+      and:
+        - draft == true
+    order:
+      - file.name
+      - publishDate
+      - assetPrefix
+    sort:
+      - property: publishDate
+        direction: DESC
+    image: note.cover
+    cardSize: 300

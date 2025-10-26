@@ -1,0 +1,68 @@
+filters:
+  and:
+    - '!file.inFolder("x/templates")'
+    - or:
+        - file.hasTag("source")
+        - "!source.isEmpty()"
+properties:
+  file.name:
+    displayName: Name
+views:
+  - type: table
+    name: All Sources
+    order:
+      - file.name
+      - created
+      - source
+      - url
+      - status
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      file.name: 622
+      note.created: 151
+      note.source: 240
+      note.url: 548
+  - type: table
+    name: Books
+    filters:
+      and:
+        - source.contains(link("Book"))
+    order:
+      - file.name
+      - created
+      - finished
+      - author
+    sort:
+      - property: finished
+        direction: DESC
+    columnSize:
+      file.name: 491
+      note.created: 151
+      note.finished: 291
+  - type: table
+    name: Articles
+    filters:
+      and:
+        - source == link("Article")
+    order:
+      - file.name
+      - created
+      - url
+    sort:
+      - property: created
+        direction: DESC
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Videos
+    filters:
+      and:
+        - file.hasTag("source/video")
+    order:
+      - file.name
+      - created
+      - url
+    columnSize:
+      file.name: 756

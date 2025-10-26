@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "64b2b81add91a7d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6e33e015a869479",
+        "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": []
+        },
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Daily Notes/2022-09-30.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "244590dd198486c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "39a8d64702cf46be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abf7a9a8a3ef68b5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#note/unprocessed",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8d525373290d52bd",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ce3b2060d93175df",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "b879feb669eded44",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f246bd39f74abe94",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 362.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4a6194443b613895",
+    "type": "split",
+    "children": [
+      {
+        "id": "dcd7117e723f4261",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58918e760ce03254",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily Notes/2022-09-30.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f65015a5d914f9fd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6eae07c8986266d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily Notes/2022-09-30.md"
+              }
+            }
+          },
+          {
+            "id": "8d1d796fe953c63d",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 350.5,
+    "collapsed": true
+  },
+  "active": "ce3b2060d93175df",
+  "lastOpenFiles": [
+    "Journal/daily-reflection/Daily-Reflection-2022-09-30.md",
+    "Daily Notes/2022-09-30.md",
+    "Work/trendyol/daily/Morning-Pages-2022-09-30.md",
+    "Notes/Writings.md",
+    "Daily Notes/2022-09-29.md",
+    "Home.md",
+    "Work/Work Highlights.md",
+    "000 Inbox/trendyol-2022-09-30.md",
+    "Work/trendyol/daily/trendyol-2022-09-29.md",
+    "Work/trendyol/notes/MPDP 2074 ReviewRating Refactor for PDP Component.md"
+  ]
+}

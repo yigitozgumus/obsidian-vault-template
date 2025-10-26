@@ -1,0 +1,35 @@
+filters:
+  and:
+    - type.containsAny(link("Work Project"), link("Personal Project"))
+views:
+  - type: table
+    name: All
+    order:
+      - file.name
+      - type
+      - status
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      file.name: 644
+      note.type: 251
+      note.status: 218
+  - type: table
+    name: Work
+    filters:
+      and:
+        - type.contains(link("Work Project"))
+    order:
+      - file.name
+      - status
+  - type: table
+    name: Personal
+    filters:
+      and:
+        - type.contains(link("Personal Project"))
+    order:
+      - file.name
+      - status
+    columnSize:
+      file.name: 814

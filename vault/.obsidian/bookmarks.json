@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "type": "search",
+      "ctime": 1732007486657,
+      "query": "tag:#idea -tag:#processed",
+      "title": "Unprocessed Ideas"
+    },
+    {
+      "type": "group",
+      "ctime": 1732026712548,
+      "items": [
+        {
+          "type": "search",
+          "ctime": 1732026582485,
+          "query": "[\"status\":Idea] -path:x/templates  ",
+          "title": "Ideas"
+        },
+        {
+          "type": "search",
+          "ctime": 1732027005622,
+          "query": " [\"status\":In Progress] [\"draft\":true]",
+          "title": "In Progress"
+        },
+        {
+          "type": "search",
+          "ctime": 1732026937897,
+          "query": " [\"status\":Completed] [\"draft\":false]",
+          "title": "Published"
+        }
+      ],
+      "title": "Writings"
+    }
+  ]
+}
